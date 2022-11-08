@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #0d192b;
+}
+
+.paragraph {
+  font-size: 18px;
+  word-spacing: 2.9px;
+}
+
+.container {
+  max-width: 500px;
+  display: flex;
+  margin: 0 auto;
+  height: 100vh;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.equi-img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.equi-img:hover {
+  mix-blend-mode: screen;
+  background-color: #00fff7;
+  background-image: url("./images/icon-view.svg");
+}
+
+/* .equi-img::after {
+  position: relative;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  content: url(./images/icon-view.svg);
+  background: hsl(178, 100%, 50%);
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  height: 100%;
+} */
+
+.equi-head {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.equi-head:hover {
+  color: #00fff7;
+}
+
+.equi-text {
+  font-size: 22px;
+  line-height: 1.3;
+  display: flex;
+  /* width: 90%; */
+  margin-bottom: 30px;
+  color: hsl(215, 51%, 70%);
+}
+
+.eth {
+  display: flex;
+}
+
+.eth-img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.eth-text {
+  color: hsl(178, 100%, 50%);
+  font-size: 20px;
+}
+
+.day {
+  display: flex;
+}
+
+.clock-img {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.clock-text {
+  color: hsl(215, 51%, 70%);
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+hr {
+  width: 100%;
+  border: 0.5px solid hsl(215, 32%, 27%);
+  margin-bottom: 25px;
+}
+
+.bottom {
+  display: flex;
+}
+
+.avtar-img {
+  width: 40px;
+  margin-right: 25px;
+  border-radius: 50%;
+  border: 1px solid #ffff;
+}
+
+.avtar-text {
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+}
+
+.avtar-link {
+  color: #ffff;
+  display: block;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.avtar-link:hover {
+  color: hsl(178, 100%, 50%);
+}
